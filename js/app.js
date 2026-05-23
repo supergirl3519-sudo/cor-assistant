@@ -156,7 +156,7 @@ class CORAssistant {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${this.apiKey}`,
                 'HTTP-Referer': window.location.href,
-                'X-Title': 'ЦОР-Ассистент'
+                'X-Title': 'COR-Assistant'
             },
             body: JSON.stringify({
                 model: this.model,
